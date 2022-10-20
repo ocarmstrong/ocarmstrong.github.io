@@ -1,0 +1,50 @@
+* {
+    background-color: #141010;
+    color:#cbcbcb;
+    font-family: 'Century Gothic';
+    line-height: 1.5;
+    max-width: 918px;
+}
+a {
+    text-decoration: none;
+    transition: all 200ms;
+}
+a:hover{
+    color: #f06071;
+    text-decoration: none;
+}
+
+img{
+    height: 200px;
+}
+
+header{
+    font-size: 50px;
+}
+
+.Education p {
+    padding-left: 30px;
+}
+
+.Experience p {
+    padding-left: 30px;
+}
+
+.TechnicalSkills {
+    width: 50%;
+    padding: 10px;
+    align-items: left;
+}
+
+.SoftSkills {
+    width: 50%;
+    padding: 10px;
+}
+
+.Education h3 {
+    padding-left: 10px
+}
+.Experience h3 {
+    padding-left: 10px
+}
+
