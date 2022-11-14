@@ -6,79 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oliver Armstrong</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Oliver Armstrong</h1>
-    </header>
-    <section class = "Introduction">
-        <div>
-            <p>My name is Oliver. Whilst I don't have any experience within the tech industry, I have prior experience working with programming through doing Computer Science at GCSE.</p>
-            <p>My lifelong ambition is to work in the video games industry, with Game Producer/Designer being a target role of mine.
-                With this in mind, I want to gain a bed of knowledge within coding and games production and use that to attain experience within industry.
-                I am a big gamer, with my favourite genres being JRPGs and Professional Wrestling games. </p>
-            <p>My main inspiration is Masahiro Sakurai, best known for being the creator of Kirby and Super Smash Bros. 
-                He also has his own <a href="https://www.youtube.com/c/sora_sakurai_en" target="_blank">YouTube channel</a> where he discusses all manner of subjects relating to games and game development.</p>
-            <img src="https://images.nintendolife.com/1776af7f4886c/masahiro-sakurai-on-creating-games.large.jpg" alt="Masahiro Sakurai, creator of Kirby and Super Smash Bros.">
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="./index.html" id="navbar_name">oliver.</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="./about-me.html" class="navbar_links" id="about-page"><em>ABOUT ME</em></a>
+                </li>
+                <li class="navbar_item">
+                    <a href="./experience.html" class="navbar_links" id="exp-page"><em>EXPERIENCE</em></a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#contact" class="navbar_links" id="contact-page"><em>CONTACT</em></a>
+                </li>
+                <li class="navbar_button">
+                    <button href="#cv" class="button-cv">CV</button>
+                </li>
+            </ul>
         </div>
-    </section>
-    <br />
-    <section class = "Education">
-        <div>
-            <h2>Education</h2>
-                <h3>A-Levels</h3>
-                <ul>
-                    <li>Mathematics</li>
-                    <li>Further Mathematics</li>
-                    <li>Physics</li>
-                </ul>
-                <h3>GCSEs</h3>
-                <p>11 GCSEs, including Computer Science, Engineering, Mathematics and Further Mathematics</p>
+    </nav>
+    <!--Page Content-->
+    <div class = "bio">
+        <div class="bio-image">
+            <img src = "./Assets/Home.png">
         </div>
-    </section>
-    <section class = "Experience">
-        <div>
-            <h2>Relevant Experience</h2>
-                <h3>Apprentice Bookkeeper</h3>
-                <p>Cloud Commerce Group <em>(July 2020 - January 2021)</em></p>
-                <h3>Store Assistant</h3>
-                <p>B&M Bargains <em>(October 2018 - December 2018)</em></p>
-                <p>Home Bargains <em>(September 2016 - September 2018)</em></p>
-                <h3>Engineering Education Scheme</h3>
-                <p>Furness College <em>(October 2016 - February 2017)</em></p>
+        <div class="bio-text">
+            <h1>Hi I'm Oliver.</h1>
+            <h2>I'm an <strong><span>aspiring Junior Developer</span></strong> who is looking to grow whilst gaining professional experience within the tech industry. </h2>
         </div>
-    </section>
-    <section class = "TechnicalSkills">
-        <div>
-            <h3>Technical Skills</h3>
-                <ul>
-                    <li>Python</li>
-                    <li>HTML5</li>
-                    <li>Jira</li>
-                    <li>Microsoft Office Suite</li>
-                    <li>Google Drive</li>
-                    <li>Google Docs</li>
+    </div>
+    <div class="skills">
+        <div class="soft-skills">
+            <h1>Soft Skills</h1>
+                <ul class="soft-list">
+                    <li class="soft-item">Quick and <span>attentive</span> learner.</li>
+                    <li class="soft-item">Experienced with meeting tight deadlines <span>without compromising quality of output</span>.</li>
+                    <li class="soft-item"><span>Personable</span>, <span>literate</span> and <span>articulate</span> in a vast array of methods and styles to suit the situation.</li>
+                    <li class="soft-item"><span>Versatile</span> in team-based work, including where individual contribution is also expected.</li>
                 </ul>
         </div>
-    </section>
-    <section class = "SoftSkills">
-            <h3>Soft Skills</h3>
-                <ul>
-                    <li>Quick and Attentive Learner</li>
-                    <li>Experienced with meeting tight deadlines without compromising quality of output</li>
-                    <li>Personable, Literate and Articulate in a vast array of methods and styles to suit a situation</li>
-                    <li>Versatile in team-based work, including where individual contribution is also expected</li>
+        <div class="tech-skills">
+            <h1>Technical Skills</h1>
+                <ul class="tech-list">
+                    <li class="tech-item">Microsoft Office</li>
+                    <li class="tech-item">Microsoft Teams</li>
+                    <li class="tech-item">Google Workspace</li>
+                    <li class="tech-item">Zoom</li>
+                    <li class="tech-item">Jira</li>
+                    <li class="tech-item"><a href = "https://github.com/ocarmstrong" target="_blank">GitHub</a></li>
                 </ul>
         </div>
-    </section>
-    <section class = "Languages">
-        <div>
-            <h2>Languages</h2>
-                <ul>
-                    <li>English</li>
-                    <li>Japanese <em>(currently learning)</em></li>
-                </ul>
+        <div class="programming-langs">
+            <h1>Programming Languages</h1>
+                <h2>Python</h2>
+                <p><em>First learned and utilised within GCSE studies, in-order to build PHP frontend for final project. Revised during CODE Lancashire course</em></p>
+                <h2>HTML, CSS, JavaScript </h2>
+                <p><em>Learned during CODE Lancashire course, used to build online portfolio</em></p>
         </div>
-    </section>
+    </div>
+    <div class="quote">
+        <h1>"I want to show people our potential and the potential of every young person, and how the possibilities in life are endless"</h1>
+        <h2><em><span>Hana Kimura</span></em></h2>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/49e5c81779.js" crossorigin="anonymous"></script>
 </body>
 </html>
